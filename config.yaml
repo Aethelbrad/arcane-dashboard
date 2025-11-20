@@ -1,0 +1,20 @@
+# System Monitoring Dashboard Configuration
+
+# Alert Thresholds (percentage)
+thresholds:
+  cpu_warning: 70
+  cpu_critical: 90
+  memory_warning: 75
+  memory_critical: 90
+  disk_warning: 80
+  disk_critical: 95
+
+# Dashboard Settings
+settings:
+  refresh_interval: 5
+  history_points: 60
+  
+# System Information
+system:
+  name: "Local System"
+  description: "Primary monitoring target"
